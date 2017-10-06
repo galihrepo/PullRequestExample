@@ -3,15 +3,11 @@ package com.mankind.www.pullrequestexample;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
-
-    String str = "";
+public class ProfileActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        str = "gadityo";
+        setContentView(R.layout.activity_profile);
     }
 }
